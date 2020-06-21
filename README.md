@@ -4,6 +4,13 @@
 
 와이어프레임은 [이곳](https://ovenapp.io/view/TPpwSKyqkmp6YRMUCOpwJnmkm7I7QKBR/Bwrws)에서 확인할 수 있습니다.
 
+## Template
+
+화면 마크업을 하실 때, `header`, `nav` 템플릿을 사용해주세요.
+`template.html` 과 `styles/template.css` 를 참조하시면 됩니다.
+
+<img src="https://user-images.githubusercontent.com/13795717/85216120-f6420700-b3bb-11ea-8ce6-47624629c65f.png" width="300">
+
 ## Development Guide
 
 가장 먼저 Project repository를 본인의 원격 저장소로 fork 합니다.
@@ -18,7 +25,7 @@ $ git clone https://github.com/{본인_GitHub_계정}/drive-thru-app.git
 $ cd drive-thru-app
 ```
 
-원본 repository를 upstream 이라는 이름으로 remote에 추가합니다.
+원본 repository를 `upstream` 이라는 이름으로 remote에 추가합니다.
 잘 추가가 되었는지 `git remote -v` 명령어로 확인할 수 있습니다.
 
 ``` bash
